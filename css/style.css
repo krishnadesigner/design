@@ -1,0 +1,501 @@
+
+
+/* ============== navbar start =========== */
+
+.main-container .navbar{
+
+}
+
+.main-container .navbar-nav{
+    margin-left: 60px;
+    
+}
+
+.main-container .navbar{
+    background: #f4f5f0;
+    border-bottom: 1px solid #d6cece;
+    display: block;
+}
+
+.main-container .navbar-brand{
+    color: #ff0000;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.main-container .navbar-brand span{
+    font-family: 'Clicker Script', cursive;
+}
+
+
+.main-container .bar span{
+    color: white;
+    border-radius: 6px;
+    border: 1px solid white;
+    padding: 2px 6px;
+    font-size: 20px;
+    
+}
+
+.main-container .navbar .nav-item .nav-link{
+    margin-left: 20px;
+    color: #6e6551;
+    font-weight: 500;
+    box-shadow: 116px 14px 120px 1px red;
+}
+
+.main-container .navbar .icon a{
+    margin-left: 30px;
+    border: 1px solid #d6cece;
+    padding: 5px;
+    border-radius: 6px;
+    background: #e0cdcd;
+    color: #16e643;
+}
+
+.main-container .collapse{
+    position: relative;
+}
+
+.main-container .navbar{
+    position: relative;
+}
+
+
+.main-container .navbar .login-form{
+    width: 20rem;
+    position: absolute;
+    top: 80px;
+    right: 200%;
+    background: #6e6551;
+    border-radius: 5px;
+    padding: 8px;
+    display: block;
+    z-index: 1;
+}
+
+*{
+    scroll-margin-bottom: block;
+}
+
+.main-container .navbar .login-form.active{
+    right: 110px;
+    transition: all 0.4s ease;
+}
+
+.main-container .navbar .login-form h3{
+    font-size: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 24px;
+    margin-bottom: 14px;
+    color: #e0cdcd;
+}
+
+.main-container .navbar .login-form input{
+    width: 100%;
+    font-size: 12px;
+    border: none;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 3px 5px;
+    border-radius: 4px;
+    color: #6e6551;
+}
+
+.main-container .navbar .login-form .btn{
+    display: block;
+    width: 100%;
+    background: #16e643;
+    margin: 20px 0;
+}
+
+.main-container .navbar .search-form{
+    position: absolute;
+    top: 80px;
+    right: 200%;
+    background: antiquewhite;
+    width: 20rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.main-container .navbar .search-form.active{
+    right: 110px;
+    transition: all 0.4s ease;
+}
+
+.main-container .navbar .search-form input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    background: antiquewhite;
+    padding: 0 8px;
+    font-size: 14px;
+}
+
+.main-container .navbar .search-form label{
+    padding-right: 8px;
+    cursor: pointer;
+    color: #ff0000;
+    transition: all 0.3s ease;
+}
+
+.main-container .navbar .search-form label:hover{
+    color: orange;
+}
+
+/* ============== navbar ends =========== */
+
+
+/* ============== banner start =========== */
+.banner-section{
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+    background-image: linear-gradient(rgba(0, 168,255,0.3), rgba(0, 168,255,0.3)), url('../images/banner6.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.banner-section .row .img-info{
+    background-image: url('../images/banner3.png');
+    clip-path: polygon(100% 11%, 100% 99%, 50% 100%, 0 89%, 0 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+
+}
+
+
+.banner-section .row .img-info img{
+    width: 300px;
+    height: 300px;
+   
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 40px;
+    z-index: -1;
+    transition: all 0.4s ease;
+}
+
+.banner-section .text-info{
+    background-image: linear-gradient(rgba(243, 244, 245, 0.3), rgba(87, 89, 90, 0.3)), url('../images/banner3.png');
+    clip-path: polygon(100% 0%, 100% 89%, 50% 100%, 0 99%, 0 11%);
+    border-left: 2px solid #615c5c;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.banner-section .row .img-info:hover img{
+    transform: scale(1.1);
+}
+/* ============== banner ends =========== */
+
+
+/* ============== about start =========== */
+.about-section .col-12{
+    position: relative;
+}
+
+.about-section .before h2::after{
+    position: absolute;
+    top: 100%;
+    left: 43.5%;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: tomato;
+}
+
+.about-section .before h2::before{
+    position: absolute;
+    top: 100%;
+    left: 43.5%;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: tomato;
+    margin-top: 8px;
+}
+
+.about-section .prag{
+    text-align: justify;
+}
+
+.about-section .col-info{
+    overflow: hidden;
+  
+    margin-bottom: 20px;
+    
+}
+
+.about-section .col-info .item-outer{
+    border: 1px solid #d8dad4;
+    border-radius: 5px;
+    box-shadow: 1px 7px 7px 1px red;
+}
+
+.about-section .col-info .item-box{
+    position: relative;
+}
+
+.about-section .col-info .item-box .timeline{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: red;
+}
+
+.about-section .col-info .item-inner::after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 100%;
+    top: 23px;
+    left: 3px;
+    background: red;
+}
+/* ============== about ends =========== */
+
+
+/* ==============service start =========== */
+.service-section .before .text{
+    position: relative;
+}
+
+.service-section .before h2::after{
+    position: absolute;
+    top: 100%;
+    left: 39%;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: tomato;
+}
+
+.service-section .before h2::before{
+    position: absolute;
+    top: 100%;
+    left: 39%;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: tomato;
+    margin-top: 8px;
+}
+
+.service-section .box{
+    border: 1px solid rosybrown;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    box-shadow: 2px 7px 8px 2px tomato;
+    transition: all 0.3s ease;
+}
+
+.service-section .box:hover{
+    box-shadow: none;
+}
+
+.service-section .box .item-box:hover .btn{
+    box-shadow: 1px 3px 4px 1px #919788;
+}
+
+
+/* ==============service ends =========== */
+
+
+
+/* ==============portfolio start =========== */
+.portfolio-section .before .text{
+    position: relative;
+}
+
+.portfolio-section .before h2::after{
+    position: absolute;
+    top: 100%;
+    left: 41%;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: tomato;
+}
+
+.portfolio-section .before h2::before{
+    position: absolute;
+    top: 100%;
+    left: 41%;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: tomato;
+    margin-top: 8px;
+}
+
+.portfolio-section .main-box{
+    position: relative;
+   
+}
+
+.portfolio-section .main-box .item-box{
+    overflow: hidden;
+    box-shadow: 1px 3px 4px 1px #919788;
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.portfolio-section .main-box .item-box .layer{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.3), #ff004f);
+    transition: all 0.5s ease;
+ 
+}
+
+.portfolio-section .main-box .item-box img{
+    transition: all 0.5s ease;
+}
+
+.portfolio-section .main-box .item-box:hover img{
+    transform: scale(1.1);
+}
+
+.portfolio-section .main-box .item-box:hover .layer{
+    height: 100%;
+   
+}
+/* ==============portfolio ends =========== */
+
+
+
+/* ==============contact start =========== */
+.contact-section .before .text{
+    position: relative;
+}
+
+.contact-section .before h2::after{
+    position: absolute;
+    top: 100%;
+    left: 42%;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: tomato;
+}
+
+.contact-section .before h2::before{
+    position: absolute;
+    top: 100%;
+    left: 42%;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: tomato;
+    margin-top: 8px;
+}
+
+
+.contact-section .box{
+    border: 1px solid #eef1eb;
+    box-shadow: 1px 1px 1px 1px #919788;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: all 0.6s ease;
+}
+
+.contact-section .box .fas{
+    margin-right: 10px;
+}
+
+.contact-section .box p{
+    transition: all 0.5s ease;
+}
+
+.contact-section .box p:hover{
+    margin-left: 20px;
+}
+
+.contact-section .box:hover{
+    margin-left: 20px;
+}
+
+.contact-section .main-contact .icon .link{
+    margin-right: 18px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.contact-section .input-group input{
+    outline: none;
+}
+
+
+.contact-section .main-contact .form-input input{
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #919788;
+    border-radius: 5px;
+}
+.contact-section .main-contact .form-input textarea{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+
+/* ==============contact ends =========== */
+
+
+/* ============== main container start =========== */
+.main-container{
+    position: relative;
+}
+
+.main-container .home-arrow{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+    z-index: 1;
+}
+.main-container .home-arrow i{
+    border-radius: 7px;
+}
+
+.main-container .copyright .small{
+    color: #6e6551;
+ 
+}
+/* ============== main container ends =========== */
+
